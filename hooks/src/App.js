@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
-import ComponentX from './Components/Context/ComponentX';
+// import CounterTwo from './Components/useReducers/CounterTwo';
+import CounterThree from './Components/useReducers/CounterThree';
+// import ComponentX from './Components/Context/ComponentX';
+// import CounterOne from './Components/useReducers/CounterOne';
 
 // import ComponentC from './Components/Context/ComponentC';
 
@@ -15,8 +18,8 @@ import ComponentX from './Components/Context/ComponentX';
 // import HookCounter from './Components/HookCounter';
 // import HookCounter2 from './Components/HookCounter2';
 
-export const UserContext = React.createContext()
-export const ChannelContext = React.createContext()
+// export const UserContext = React.createContext()
+// export const ChannelContext = React.createContext()
 
 function App() {
   return (
@@ -37,11 +40,15 @@ function App() {
         </ChannelContext.Provider>
       </UserContext.Provider> */}
 
-      <UserContext.Provider value={'K3Yg1N'}>
+      {/* <UserContext.Provider value={'K3Yg1N'}>
         <ChannelContext.Provider value={'3v0luti0N'}>
           <ComponentX />
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+
+      {/* <CounterOne/> */}
+      {/* <CounterTwo/> */}
+      <CounterThree/>
 
     </div>
   );
