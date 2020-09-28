@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
+// import DataFetchingOne from './Components/FetchWithReducers/DataFetchingOne';
+import DataFetchingTwo from './Components/FetchWithReducers/DataFetchingTwo';
 // import CounterTwo from './Components/useReducers/CounterTwo';
-import CounterThree from './Components/useReducers/CounterThree';
+// import CounterThree from './Components/useReducers/CounterThree';
 // import ComponentX from './Components/Context/ComponentX';
 // import CounterOne from './Components/useReducers/CounterOne';
 
@@ -48,7 +50,11 @@ function App() {
 
       {/* <CounterOne/> */}
       {/* <CounterTwo/> */}
-      <CounterThree/>
+      {/* <CounterThree/> */}
+
+      {/* <DataFetchingOne/> */}
+
+      <DataFetchingTwo/>
 
     </div>
   );
