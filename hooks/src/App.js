@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
-import ComponentC from './Components/Context/ComponentC';
+import ComponentX from './Components/Context/ComponentX';
+
+// import ComponentC from './Components/Context/ComponentC';
+
 // import DataFetching from './Components/Effect Hook/DataFetching';
 // import HookCounterOne from './Components/Effect Hook/HookCounterOne';
 // import HookMouse from './Components/Effect Hook/HookMouse';
@@ -28,9 +31,15 @@ function App() {
       {/* <MouseContainer/> */}
       {/* <IntervalHookCounter/> */}
       {/* <DataFetching/> */}
-      <UserContext.Provider value={'K3Yg1N'}>
+      {/* <UserContext.Provider value={'K3Yg1N'}>
         <ChannelContext.Provider value={'3v0luti0N'}>
           <ComponentC />
+        </ChannelContext.Provider>
+      </UserContext.Provider> */}
+
+      <UserContext.Provider value={'K3Yg1N'}>
+        <ChannelContext.Provider value={'3v0luti0N'}>
+          <ComponentX />
         </ChannelContext.Provider>
       </UserContext.Provider>
 
