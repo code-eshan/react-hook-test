@@ -18,7 +18,7 @@ function IntervalHookCounter() {
 
     return (
         <div>
-            {count}
+            <h1 style={{color:"green"}}>{count}</h1>
         </div>
     )
 }
