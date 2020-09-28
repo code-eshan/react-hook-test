@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import HookCounterOne from './Components/Effect Hook/HookCounterOne';
 // import HookCounter3 from './Components/HookCounter3';
 // import HookCounter4 from './Components/HookCounter4';
 //import ClassCounter from './Components/ClassCounter';
@@ -14,6 +15,7 @@ function App() {
       {/* <HookCounter2/> */}
       {/* <HookCounter3/> */}
       {/* <HookCounter4/> */}
+      <HookCounterOne/>
     </div>
   );
 }
