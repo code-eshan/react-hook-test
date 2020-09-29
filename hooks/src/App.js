@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
+import Counter from './Components/useMemo Hook/Counter';
 // import DataFetchingOne from './Components/FetchWithReducers/DataFetchingOne';
-import DataFetchingTwo from './Components/FetchWithReducers/DataFetchingTwo';
+// import DataFetchingTwo from './Components/FetchWithReducers/DataFetchingTwo';
 // import CounterTwo from './Components/useReducers/CounterTwo';
 // import CounterThree from './Components/useReducers/CounterThree';
 // import ComponentX from './Components/Context/ComponentX';
@@ -16,7 +17,7 @@ import DataFetchingTwo from './Components/FetchWithReducers/DataFetchingTwo';
 // import IntervalHookCounter from './Components/Effect Hook/IntervalHookCounter';
 // import HookCounter3 from './Components/HookCounter3';
 // import HookCounter4 from './Components/HookCounter4';
-//import ClassCounter from './Components/ClassCounter';
+// import ClassCounter from './Components/ClassCounter';
 // import HookCounter from './Components/HookCounter';
 // import HookCounter2 from './Components/HookCounter2';
 
@@ -54,7 +55,9 @@ function App() {
 
       {/* <DataFetchingOne/> */}
 
-      <DataFetchingTwo/>
+      {/* <DataFetchingTwo/> */}
+
+      <Counter />
 
     </div>
   );
