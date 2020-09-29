@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
-import Counter from './Components/useMemo Hook/Counter';
+// import Counter from './Components/useMemo Hook/Counter';
+// import FocusInput from './Components/useRef Hook/FocusInput';
+// import ClassTimer from './Components/useRef Hook/ClassTimer';
+import HookTimer from './Components/useRef Hook/HookTimer';
 // import DataFetchingOne from './Components/FetchWithReducers/DataFetchingOne';
 // import DataFetchingTwo from './Components/FetchWithReducers/DataFetchingTwo';
 // import CounterTwo from './Components/useReducers/CounterTwo';
@@ -57,8 +60,12 @@ function App() {
 
       {/* <DataFetchingTwo/> */}
 
-      <Counter />
+      {/* <Counter /> */}
 
+      {/* <FocusInput /> */}
+      {/* <ClassTimer/> */}
+
+      <HookTimer/>
     </div>
   );
 }
